@@ -1,0 +1,38 @@
+<div class="container p35">
+  <div class="row">
+    <div class="col-md-12 text-center heading h1 pb10 transition-text">
+      <span class="text-uppercase" translate>results_results</span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p35">
+  <div class="row">
+    <div class="col-md-12">
+
+      <app-loader [isLoading]="isLoading"></app-loader>
+
+      <table *ngIf="!isLoading" class="table table-striped">
+        <thead>
+          <tr class="text-uppercase">
+            <th translate>results_date</th>
+            <th translate>results_length</th>
+            <th translate>results_location</th>
+            <th translate>results_position</th>
+            <th translate>results_series</th>
+            <th translate>results_drivers</th>
+          </tr>
+        </thead>
+        <tr *ngFor="let item of results">
+          <th>{{item.date}}</th>
+          <th>{{item.length}}</th>
+          <th>{{item.circuit}}</th>
+          <th style="white-space: pre-line">{{item.position}}</th>
+          <th>{{item.series}}</th>
+          <th style="white-space: pre-line">{{item.drivers}}</th>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+</div>

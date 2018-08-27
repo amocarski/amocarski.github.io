@@ -1,0 +1,146 @@
+<div *ngIf="event?.isStream">
+  <div class="auto-resizable-iframe">
+    <div>
+      <iframe frameborder="0" allowfullscreen="true" [src]="streamURL"></iframe>
+    </div>
+  </div>
+
+  <div class="row justify-content-center h4 p35">
+    <span>{{event?.circuit}}</span>
+  </div>
+
+  <div *ngIf="event?.isLT">
+    <div class="row justify-content-center p35">
+      <button *ngFor="let label of event?.ltBtnLabel; let i=index" (click)="toggleLT(i)" [class.active]="ltToggler == i" type="button" class="btn btn-default">{{label}}</button>
+    </div>
+
+    <div class="row live-timing">
+      <iframe *ngFor="let lt of liveTimingURL; let i=index" width="100%" frameborder="0" allowfullscreen="" [src]="lt"
+              [hidden]="ltToggler != i"></iframe>
+    </div>
+  </div>
+
+</div>
+
+<div *ngIf="!event?.isStream">
+
+  <div><img class="d-block d-sm-block d-md-none d-lg-none none-parallax-img" src="../assets/vec-s10-frs.jpg" alt="">
+  </div>
+
+  <div parallax class="d-none d-sm-none d-md-block d-lg-block" id="parralax-img"
+       [config]="{initialValue: -100, ratio: .4}">
+  </div>
+
+  <div class="container parallax-desc">
+    <div class="row align-items-center justify-content-center h2">
+      PROFESSIONAL <span class="highlight-text">SIMRACING</span> TEAM
+    </div>
+  </div>
+
+  <div>
+    <div id="gradient"></div>
+
+    <div class="container home">
+      <div class="row">
+        <div class="col-md-12 text-center heading h1 pb10 transition-text">
+          <span>NASTĘPNY WYŚCIG</span>
+          <span class="eng-text">NEXT RACE</span>
+        </div>
+        <div class="col-md-12 text-center h2 heading transition-text">
+          <span>{{event?.circuit}}</span>
+          <span class="eng-text">{{event?.name}}</span>
+        </div>
+        <div class="col-md-12 text-center">
+          <div id="clockdiv">
+            <div>
+              <span class="days heading digit">{{days}}</span>
+              <div class="smalltext transition-text">
+                <div>Dni</div>
+                <div class="eng-text">Days</div>
+              </div>
+            </div>
+            <div>
+              <span class="hours heading digit">{{hours}}</span>
+              <div class="smalltext transition-text">
+                <div>Godzin</div>
+                <div class="eng-text">Hours</div>
+              </div>
+            </div>
+            <div>
+              <span class="minutes heading digit">{{minutes}}</span>
+              <div class="smalltext transition-text">
+                <div>Minut</div>
+                <div class="eng-text">Minutes</div>
+              </div>
+            </div>
+            <div>
+              <!--<span class="seconds heading digit">{{seconds}}</span>-->
+              <!--<div class="smalltext transition-text">-->
+              <!--<div>Sekund</div>-->
+              <!--<div class="eng-text">Sec</div>-->
+              <!--</div>-->
+              <!--</div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt100 d-none d-md-block d-lg-block">
+        <div class="col-md-12 text-center heading pb10 text-uppercase h2" translate>last_results</div>
+
+        <div class="">
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th translate>results_date</th>
+              <th translate>results_location</th>
+              <th translate>results_position</th>
+              <th translate>results_series</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let item of results | async">
+              <th class="">{{item.date}}</th>
+              <th class="d-block d-xs-none d-sm-none d-md-block"><span *ngIf="item.length != '-'">{{item.length}}</span>
+                {{item.circuit}}
+              </th>
+              <th style="white-space: pre-line">{{item.position}}</th>
+              <th>{{item.series}}</th>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-12 text-center h4 eng-text">
+          <a routerLink="results" translate>see_all</a>...
+        </div>
+      </div>
+
+
+      <!--<div class="p35 mt35">-->
+        <!--<div class="row">-->
+          <!--<div class="col-md-12 video">-->
+            <!--<div class="video-overlay"></div>-->
+            <!--<iframe src="https://player.vimeo.com/video/211004675" width="100%" height="400px" frameborder="0"></iframe>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+
+
+
+    </div>
+  </div>
+
+  <!--<div class="container-fluid p-0 video-container">-->
+    <!--<div class="row">-->
+      <!--<div class="col-md-12 d-none d-md-block d-lg-block">-->
+        <!--&lt;!&ndash;<div class="video-overlay"></div>&ndash;&gt;-->
+        <!--<div class="video-gradient"></div>-->
+        <!--<video autoplay muted loop class="video-background">-->
+          <!--<source src="./assets/video.mp4" type="video/mp4">-->
+        <!--</video>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+
+</div>

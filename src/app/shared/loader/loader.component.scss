@@ -1,0 +1,43 @@
+.loader {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 10px;
+  background: #ec1e24;
+  animation: load 1.8s ease-in-out infinite;
+}
+
+.loader:before, .loader:after {
+  position: absolute;
+  display: block;
+  content: "";
+  animation: load 1.8s ease-in-out infinite;
+  height: 10px;
+}
+
+.loader:before {
+  top: -20px;
+  left: 10px;
+  width: 40px;
+  background: #c0a062;
+}
+
+.loader:after {
+  bottom: -20px;
+  width: 35px;
+  background: #ffffff;
+}
+
+@keyframes load {
+  0% {
+    transform: translateX(40px);
+  }
+
+  50% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(40px);
+  }
+}

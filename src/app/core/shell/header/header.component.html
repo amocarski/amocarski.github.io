@@ -1,0 +1,53 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+
+
+    <a routerLink="/" class="logo-href d-lg-none d-xl-none">
+      <object data="assets/logo.svg" type="image/svg+xml" class="logo logo-object"></object>
+    </a>
+
+    <button class="navbar-toggler" type="button" aria-controls="navbar-menu"
+            aria-label="Toggle navigation" (click)="toggleMenu()" [attr.aria-expanded]="!menuHidden">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar-menu" class="collapse navbar-collapse float-xs-none mx-auto" [ngbCollapse]="menuHidden">
+
+      <div class="nav-links">
+        <a class="nav-item nav-link text-uppercase" routerLink="/results" routerLinkActive="active">
+          <span translate>results</span>
+        </a>
+        <a class="nav-item nav-link text-uppercase" routerLink="/calendar" routerLinkActive="active">
+          <span translate>calendar</span>
+        </a>
+        <a class="nav-item nav-link text-uppercase" routerLink="/drivers" routerLinkActive="active">
+          <span translate>drivers</span>
+        </a>
+        <a routerLink="/" class="logo-big nav-item nav-link text-uppercase d-none d-lg-inline-block d-xl-inline-block">
+          <object data="assets/logo.svg" type="image/svg+xml" class="logo logo-object"></object>
+        </a>
+        <a class="nav-item nav-link text-uppercase" routerLink="/press" routerLinkActive="active">
+          <span translate>press</span>
+        </a>
+        <a class="nav-item nav-link text-uppercase" routerLink="/contact" routerLinkActive="active">
+          <span translate>contact</span>
+        </a>
+        <a class="nav-item nav-link text-uppercase" routerLink="/about" routerLinkActive="active">
+          <span translate>about</span>
+        </a>
+      </div>
+
+      <div class="navbar-nav ml-auto">
+        <div class="nav-item" ngbDropdown placement="bottom-right">
+          <a id="language-dropdown" class="nav-link" ngbDropdownToggle>{{currentLanguage}}</a>
+          <div ngbDropdownMenu aria-labelledby="language-dropdown">
+            <button class="dropdown-item" *ngFor="let language of languages" (click)="setLanguage(language.code)">
+              {{language.name}}
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
