@@ -27,6 +27,7 @@ export class AppComponent implements OnInit {
               private i18nService: I18nService) { }
 
   ngOnInit() {
+      //test
     // Setup logger
     if (environment.production) {
       Logger.enableProductionMode();
