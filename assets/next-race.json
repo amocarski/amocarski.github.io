@@ -1,0 +1,16 @@
+{
+  "circuit": "Suzuka",
+  "name": "eSports FIA WTCC RaceRoom Championship",
+  "date": "December 31 2017 23:59:00 GMT+0100",
+  "isStream": false,
+  "streamURL": "https://www.youtube.com/embed/76XikEhXdmI",
+  "isLT": true,
+  "lt": [
+    "http://d1.simracing.club:8082/dev/timing.html",
+    "http://d2.simracing.club:8082/dev/timing.html"
+  ],
+  "ltBtnLabel": [
+    "VEC Div 1",
+    "VEC Div 2"
+  ]
+}
