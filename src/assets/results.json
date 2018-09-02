@@ -1,11 +1,75 @@
 [
   {
+    "date": "25.08.2018",
+    "length": "4h",
+    "circuit": "Nordschleife",
+    "position": "7",
+    "series": "VLN",
+    "drivers": "Mercedes AMG GT3: Bar, Mocarski",
+    "sim": "iR"
+  },
+  {
+    "date": "21.08.2018",
+    "length": "-",
+    "circuit": "Silverstone",
+    "position": "11 \n 1 \n 8",
+    "series": "ROS",
+    "drivers": "Bar \n Charkot \n Turek",
+    "sim": "AC"
+  },
+  {
+    "date": "11.08.2018",
+    "length": "4h",
+    "circuit": "Nordschleife",
+    "position": "17",
+    "series": "VLN",
+    "drivers": "Mercedes AMG GT3: Bar, Mocarski",
+    "sim": "iR"
+  },
+  {
+    "date": "7.08.2018",
+    "length": "-",
+    "circuit": "Barcelona",
+    "position": "12 \n 1",
+    "series": "ROS",
+    "drivers": "Bar \n Charkot",
+    "sim": "AC"
+  },
+  {
+    "date": "24.07.2018",
+    "length": "-",
+    "circuit": "Imola",
+    "position": "7 \n 2",
+    "series": "ROS",
+    "drivers": "Bar \n Charkot",
+    "sim": "AC"
+  },
+  {
+    "date": "30.06.2018",
+    "length": "4h",
+    "circuit": "Nordschleife",
+    "position": "15",
+    "series": "VLN",
+    "drivers": "Mercedes AMG GT3: Bar, Mocarski",
+    "sim": "iR"
+  },
+  {
+    "date": "16.06.2018",
+    "length": "4h",
+    "circuit": "Nordschleife",
+    "position": "14",
+    "series": "VLN",
+    "drivers": "Mercedes AMG GT3: Bar, Mocarski",
+    "sim": "iR"
+  },
+  {
     "date": "3.06.2018",
     "length": "24h",
     "circuit": "Le Mans",
     "position": "3",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Gerber, Indyka, Mynek, Żerebiec [D3]"
+    "drivers": "LMP1 Audi R18: Gerber, Indyka, Mynek, Żerebiec [D3]",
+    "sim": "rF2"
   },
   {
     "date": "29.04.2018",
@@ -13,7 +77,8 @@
     "circuit": "Le Mans",
     "position": "7",
     "series": "iRacing VRS Endu",
-    "drivers": "Mercedes AMG GT3: Mocarski, Żerebiec"
+    "drivers": "Mercedes AMG GT3: Mocarski, Żerebiec",
+    "sim": "rF2"
   },
   {
     "date": "7.04.2018",
@@ -21,7 +86,17 @@
     "circuit": "Sebring",
     "position": "DNF \n 4",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Lopez, Młynek [D2] \n LMP1 Audi R18: Indyka, Żerebiec [D3]"
+    "drivers": "LMP1 Audi R18: Lopez, Młynek [D2] \n LMP1 Audi R18: Indyka, Żerebiec [D3]",
+    "sim": "rF2"
+  },
+  {
+    "date": "17.03.2018",
+    "length": "4h",
+    "circuit": "Nordschleife",
+    "position": "13",
+    "series": "VLN",
+    "drivers": "Mercedes AMG GT3: Bar, Mocarski",
+    "sim": "iR"
   },
   {
     "date": "10.03.2018",
@@ -29,7 +104,8 @@
     "circuit": "Silverstone",
     "position": "4 \n DNF",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Bar, Lopez, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka [D3]"
+    "drivers": "LMP1 Audi R18: Bar, Lopez, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka [D3]",
+    "sim": "rF2"
   },
   {
     "date": "10.02.2018",
@@ -37,7 +113,8 @@
     "circuit": "Interlagos",
     "position": "5 \n 1",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka, Żerebiec [D3]"
+    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka, Żerebiec [D3]",
+    "sim": "rF2"
   },
   {
     "date": "13.01.2018",
@@ -45,7 +122,8 @@
     "circuit": "Suzuka",
     "position": "DNF \n 1",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Indyka, Żerebiec [D3]"
+    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Indyka, Żerebiec [D3]",
+    "sim": "rF2"
   },
   {
     "date": "2.12.2017",
@@ -53,7 +131,8 @@
     "circuit": "Istambul",
     "position": "DNF \n 1",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka, Żerebiec [D3]"
+    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka, Żerebiec [D3]",
+    "sim": "rF2"
   },
   {
     "date": "18.11.2017",
@@ -61,7 +140,8 @@
     "circuit": "Sebring",
     "position": "6",
     "series": "Race Department",
-    "drivers": "Gibson 015S Nissan: Młynek, Wiśniewski"
+    "drivers": "Gibson 015S Nissan: Młynek, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "12.11.2017",
@@ -69,7 +149,8 @@
     "circuit": "Suzuka",
     "position": "6 | 20 \n 8 | 4",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Wiśniewski | Bánki"
+    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Wiśniewski | Bánki",
+    "sim": "R3E"
   },
   {
     "date": "4.11.2017",
@@ -77,7 +158,8 @@
     "circuit": "Fuji",
     "position": "5 \n 2",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Bar, Lopez, Młynek [D2] \n LMP1 Audi R18: Indyka, Żerebiec [D3]"
+    "drivers": "LMP1 Audi R18: Bar, Lopez, Młynek [D2] \n LMP1 Audi R18: Indyka, Żerebiec [D3]",
+    "sim": "rF2"
   },
   {
     "date": "22.10.2017",
@@ -85,7 +167,8 @@
     "circuit": "Suzuka",
     "position": "10 | 2 \n 5 | 7",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Wiśniewski | Bánki"
+    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Wiśniewski | Bánki",
+    "sim": "R3E"
   },
   {
     "date": "8.10.2017",
@@ -93,7 +176,8 @@
     "circuit": "Shanghai",
     "position": "9 | 3 \n 1 | 6",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Wiśniewski | Bánki"
+    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Wiśniewski | Bánki",
+    "sim": "R3E"
   },
   {
     "date": "7.10.2017",
@@ -101,7 +185,8 @@
     "circuit": "Suzuka",
     "position": "1",
     "series": "Race Department",
-    "drivers": "Gibson 015S Nissan: Brzeziński, Młynek, Wiśniewski"
+    "drivers": "Gibson 015S Nissan: Brzeziński, Młynek, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "7.10.2017",
@@ -109,7 +194,8 @@
     "circuit": "Indianapolis",
     "position": "5 \n 3",
     "series": "VEC(S10)",
-    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka, Żerebiec [D3]"
+    "drivers": "LMP1 Audi R18: Bar, Młynek [D2] \n LMP1 Audi R18: Gerber, Indyka, Żerebiec [D3]",
+    "sim": "rF2"
   },
   {
     "date": "3.09.2017",
@@ -117,7 +203,8 @@
     "circuit": "Sonoma",
     "position": "1 \n 9",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Bánki \n Race 2: Bánki"
+    "drivers": "Race 1: Bánki \n Race 2: Bánki",
+    "sim": "R3E"
   },
   {
     "date": "13.08.2017",
@@ -125,7 +212,8 @@
     "circuit": "Silverstone GP",
     "position": "2 \n 11",
     "series": "World's Fastest Gamer",
-    "drivers": "McLaren 650S GT3: Wiśniewski \nMcLaren 650S GT3: Lopez"
+    "drivers": "McLaren 650S GT3: Wiśniewski \nMcLaren 650S GT3: Lopez",
+    "sim": "rF2"
   },
   {
     "date": "6.08.2017",
@@ -133,7 +221,8 @@
     "circuit": "Slovakiaring",
     "position": "5 | 11 \n 10 | 26",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Bánki | Wiśniewski"
+    "drivers": "Race 1: Wiśniewski | Bánki \n Race 2: Bánki | Wiśniewski",
+    "sim": "R3E"
   },
   {
     "date": "18.06.2017",
@@ -141,7 +230,8 @@
     "circuit": "Portimao",
     "position": "5 \n 3",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski \n Race 2: Wiśniewski"
+    "drivers": "Race 1: Wiśniewski \n Race 2: Wiśniewski",
+    "sim": "R3E"
   },
   {
     "date": "4.06.2017",
@@ -149,7 +239,8 @@
     "circuit": "Le Mans",
     "position": "2",
     "series": "VEC",
-    "drivers": "LMP2 Oreca 05 Nissan: Bar, Lopez, Gerber, Młynek"
+    "drivers": "LMP2 Oreca 05 Nissan: Bar, Lopez, Gerber, Młynek",
+    "sim": "rF2"
   },
   {
     "date": "31.05.2017",
@@ -157,7 +248,8 @@
     "circuit": "Australia",
     "position": "4 \n 9",
     "series": "eurogamer.it Assetto Corsa",
-    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński"
+    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński",
+    "sim": "AC"
   },
   {
     "date": "21.05.2017",
@@ -165,7 +257,8 @@
     "circuit": "Nordschleife",
     "position": "DNF",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski"
+    "drivers": "Race 1: Wiśniewski",
+    "sim": "R3E"
   },
   {
     "date": "13.05.2017",
@@ -173,7 +266,8 @@
     "circuit": "Silversone",
     "position": "1",
     "series": "Race Department",
-    "drivers": "Gibson 015S Nissan: Brzeziński, Młynek, Wiśniewski"
+    "drivers": "Gibson 015S Nissan: Brzeziński, Młynek, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "10.05.2017",
@@ -181,7 +275,8 @@
     "circuit": "Portugalia",
     "position": "4 \n 3",
     "series": "eurogamer.it Assetto Corsa",
-    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński"
+    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński",
+    "sim": "AC"
   },
   {
     "date": "7.05.2017",
@@ -189,7 +284,8 @@
     "circuit": "Hungaroring",
     "position": "8 \n 3",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski \n Race 2: Wiśniewski"
+    "drivers": "Race 1: Wiśniewski \n Race 2: Wiśniewski",
+    "sim": "R3E"
   },
   {
     "date": "26.04.2017",
@@ -197,7 +293,8 @@
     "circuit": "Hockenheim",
     "position": "7 \n 3",
     "series": "eurogamer.it Assetto Corsa",
-    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński"
+    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński",
+    "sim": "AC"
   },
   {
     "date": "23.04.2017",
@@ -205,7 +302,8 @@
     "circuit": "Monza",
     "position": "6 \n 13",
     "series": "eSports WTCC",
-    "drivers": "Race 1: Wiśniewski \n Race 2: Wiśniewski"
+    "drivers": "Race 1: Wiśniewski \n Race 2: Wiśniewski",
+    "sim": "R3E"
   },
   {
     "date": "12.04.2017",
@@ -213,7 +311,8 @@
     "circuit": "Silverstone",
     "position": "6 \n 8",
     "series": "eurogamer.it Assetto Corsa",
-    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński"
+    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński",
+    "sim": "AC"
   },
   {
     "date": "8.04.2017",
@@ -221,7 +320,8 @@
     "circuit": "Interlagos",
     "position": "2 \n DNF",
     "series": "VEC",
-    "drivers": "LMP2 Oreca 05 Nissan: Bar, Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan"
+    "drivers": "LMP2 Oreca 05 Nissan: Bar, Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "1.04.2017",
@@ -229,7 +329,8 @@
     "circuit": "Interlagos",
     "position": "1",
     "series": "Race Department",
-    "drivers": "Gibson 015S Nissan: Brzeziński, Młynek, Wiśniewski"
+    "drivers": "Gibson 015S Nissan: Brzeziński, Młynek, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "29.03.2017",
@@ -237,7 +338,8 @@
     "circuit": "Kanada",
     "position": "3 \n 7",
     "series": "eurogamer.it Assetto Corsa",
-    "drivers": "Lotus 98T: Brzeziński \n Lotus 98T: Charkot"
+    "drivers": "Lotus 98T: Brzeziński \n Lotus 98T: Charkot",
+    "sim": "AC"
   },
   {
     "date": "18.03.2017",
@@ -245,7 +347,8 @@
     "circuit": "Bathurst",
     "position": "11",
     "series": "SimRacing.Club",
-    "drivers": "Ferrari 458 GT: Hinss, Jordan"
+    "drivers": "Ferrari 458 GT: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "15.03.2017",
@@ -253,7 +356,8 @@
     "circuit": "Meksyk",
     "position": "3 \n 14",
     "series": "eurogamer.it Assetto Corsa",
-    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński"
+    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński",
+    "sim": "AC"
   },
   {
     "date": "11.03.2017",
@@ -261,7 +365,8 @@
     "circuit": "Sebring",
     "position": "5 \n DNF \n DNF",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski \n LMP2 Oreca 05 Nissan: Bar, Gerber, Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski \n LMP2 Oreca 05 Nissan: Bar, Gerber, Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "8.03.2017",
@@ -269,7 +374,8 @@
     "circuit": "Imola",
     "position": "2 \n 4",
     "series": "eurogamer.it Assetto Corsa",
-    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński"
+    "drivers": "Lotus 98T: Charkot \n Lotus 98T: Brzeziński",
+    "sim": "AC"
   },
   {
     "date": "11.02.2017",
@@ -277,7 +383,8 @@
     "circuit": "Sepang",
     "position": "3 \n 4 \n 8",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski \n LMP2 Oreca 05 Nissan: Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski \n LMP2 Oreca 05 Nissan: Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "14.01.2017",
@@ -285,7 +392,8 @@
     "circuit": "Suzuka",
     "position": "5 \n 1 \n 11",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski \n LMP2 Oreca 05 Nissan: Bar, Gerber, Młynek\nGT Ferrari 458: Hinss, Jordan"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski \n LMP2 Oreca 05 Nissan: Bar, Gerber, Młynek\nGT Ferrari 458: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "3.12.2016",
@@ -293,7 +401,8 @@
     "circuit": "Silverstone",
     "position": "1 \n 4",
     "series": "VEC",
-    "drivers": "LMP2 Oreca 05 Nissan: Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan"
+    "drivers": "LMP2 Oreca 05 Nissan: Lopez, Młynek\nGT Ferrari 458: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "6.11.2016",
@@ -301,7 +410,8 @@
     "circuit": "Istambul",
     "position": "10 \n 4 \n 2",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski\nLMP2 Oreca 05 Nissan: Bar, Młynek\nGT Ferrari 458: Hinss, Jordan"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski\nLMP2 Oreca 05 Nissan: Bar, Młynek\nGT Ferrari 458: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "8.10.2016",
@@ -309,7 +419,8 @@
     "circuit": "Indianapolis",
     "position": "11 \n 4 \n 8",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski\nLMP2 Oreca 05 Nissan: Bar, Młynek\nGT Ferrari 458: Hinss, Jordan"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski\nLMP2 Oreca 05 Nissan: Bar, Młynek\nGT Ferrari 458: Hinss, Jordan",
+    "sim": "rF2"
   },
   {
     "date": "11-12.06.2016",
@@ -317,7 +428,8 @@
     "circuit": "Le Mans",
     "position": "1",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Gergis, Wiśniewski"
+    "drivers": "LMP1 Audi R18: Brzeziński, Gergis, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "7.05.2016",
@@ -325,7 +437,8 @@
     "circuit": "Nurburgring",
     "position": "4",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "2.04.2016",
@@ -333,7 +446,8 @@
     "circuit": "Istanbul",
     "position": "2",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "5.03.2016",
@@ -341,7 +455,8 @@
     "circuit": "Sebring",
     "position": "1",
     "series": "VEC",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "6-7.02.2016",
@@ -349,7 +464,8 @@
     "circuit": "Spa",
     "position": "1",
     "series": "VEC",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Gergis, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Gergis, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "6.12.2015",
@@ -357,7 +473,8 @@
     "circuit": "Interlagos",
     "position": "1",
     "series": "VEC",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "7.11.2015",
@@ -365,7 +482,8 @@
     "circuit": "Fuji",
     "position": "1",
     "series": "VEC",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski",
+    "sim": "rF2"
   },
   {
     "date": "8.10.2015",
@@ -373,7 +491,8 @@
     "circuit": "Silverstone",
     "position": "2",
     "series": "VEC",
-    "drivers": "LMP1 Porsche 919: Bogusz, Gergis"
+    "drivers": "LMP1 Porsche 919: Bogusz, Gergis",
+    "sim": "rF2"
   },
   {
     "date": "18-19.07.2015",
@@ -381,7 +500,8 @@
     "circuit": "Le Mans",
     "position": "1",
     "series": "sim-racing.org",
-    "drivers": "LMP1 Rebellion R-One: Bogusz, Brzeziński, Kweekel"
+    "drivers": "LMP1 Rebellion R-One: Bogusz, Brzeziński, Kweekel",
+    "sim": "rF2"
   },
   {
     "date": "23.05.2015",
@@ -389,7 +509,8 @@
     "circuit": "Nurburgring",
     "position": "2",
     "series": "racersleague",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "25.04.2015",
@@ -397,7 +518,8 @@
     "circuit": "Sepang",
     "position": "1",
     "series": "racersleague",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "28.02.2015",
@@ -405,7 +527,8 @@
     "circuit": "Silverstone",
     "position": "4 \n 8 \n4",
     "series": "racersleague",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski \n LMP1 Porsche 919: Bar, Mocarski \nGTE Corvette C7R: R.Bogusz, M.Bogusz"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski \n LMP1 Porsche 919: Bar, Mocarski \nGTE Corvette C7R: R.Bogusz, M.Bogusz",
+    "sim": "rF"
   },
   {
     "date": "21.01.2015",
@@ -413,7 +536,8 @@
     "circuit": "Road America",
     "position": "1",
     "series": "racersleague",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "20.12.2014",
@@ -421,7 +545,8 @@
     "circuit": "Watkins Glens",
     "position": "1",
     "series": "racersleague",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "22.11.2014",
@@ -429,7 +554,8 @@
     "circuit": "Indianapolis",
     "position": "1\n8",
     "series": "racersleague",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski\nCorvette ZR1 GTE: Biernat, R.Bogusz"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski\nCorvette ZR1 GTE: Biernat, R.Bogusz",
+    "sim": "rF"
   },
   {
     "date": "25.10.2014",
@@ -437,7 +563,8 @@
     "circuit": "Sebring",
     "position": "5",
     "series": "racersleague",
-    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Porsche 919: Brzeziński, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "28-29.06.2014",
@@ -445,7 +572,8 @@
     "circuit": "Le Mans",
     "position": "2\n11",
     "series": "sim-racing.org",
-    "drivers": "LMP1 Peugeot 908: Bogusz, Brzezinski, Dion\nGTE Corvette C6.R: Bar, Biernat, Mocarski, Wiśniewski"
+    "drivers": "LMP1 Peugeot 908: Bogusz, Brzezinski, Dion\nGTE Corvette C6.R: Bar, Biernat, Mocarski, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "26.04.2014",
@@ -453,7 +581,8 @@
     "circuit": "Abu Dhabi",
     "position": "1(DQ)",
     "series": "racersleague",
-    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski"
+    "drivers": "LMP1 Audi R18: Brzeziński, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "20.02.2014",
@@ -461,7 +590,8 @@
     "circuit": "Mosport",
     "position": "3",
     "series": "racersleague",
-    "drivers": "LMP1 Aston Martin DBR1-2: Bogusz, Mocarski"
+    "drivers": "LMP1 Aston Martin DBR1-2: Bogusz, Mocarski",
+    "sim": "rF"
   },
   {
     "date": "11-12.01.2014",
@@ -469,7 +599,8 @@
     "circuit": "Bathurst",
     "position": "3",
     "series": "sim-racing.org",
-    "drivers": "Ferrari 458 GT3: Bogusz, Brzeziński, Szwajkowski"
+    "drivers": "Ferrari 458 GT3: Bogusz, Brzeziński, Szwajkowski",
+    "sim": "rF"
   },
   {
     "date": "23.11.2013",
@@ -477,7 +608,8 @@
     "circuit": "Laguna Seca",
     "position": "8\n10",
     "series": "sim-racing.org",
-    "drivers": "Ferrari 458 GT3: Bar, Bogusz, Brzeziński\nAudi R8 GT3: Antochowski, Gaca, Wiśniewski"
+    "drivers": "Ferrari 458 GT3: Bar, Bogusz, Brzeziński\nAudi R8 GT3: Antochowski, Gaca, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "19-20.10.2013",
@@ -485,7 +617,8 @@
     "circuit": "Spa",
     "position": "14",
     "series": "sim-racing.org",
-    "drivers": "Ferrari 458 GT3: Bogusz, Bar, Brzeziński"
+    "drivers": "Ferrari 458 GT3: Bogusz, Bar, Brzeziński",
+    "sim": "rF"
   },
   {
     "date": "29-30.06.2013",
@@ -493,7 +626,8 @@
     "circuit": "Le Mans",
     "position": "2",
     "series": "sim-racing.org",
-    "drivers": "LMP1 EpsilonEuskadi: Bogusz, Brzeziński, Wiśniewski"
+    "drivers": "LMP1 EpsilonEuskadi: Bogusz, Brzeziński, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "13-14.07.2013",
@@ -501,7 +635,8 @@
     "circuit": "Le Mans",
     "position": "5",
     "series": "Race Department",
-    "drivers": "LMP1 Peugeot 908: Bar, Bogusz, Mocarski, Wiśniewski"
+    "drivers": "LMP1 Peugeot 908: Bar, Bogusz, Mocarski, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "15.06.2013",
@@ -509,7 +644,8 @@
     "circuit": "Road America",
     "position": "3",
     "series": "Race Department",
-    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski, Wisniewski"
+    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski, Wisniewski",
+    "sim": "rF"
   },
   {
     "date": "27.04.2013",
@@ -517,7 +653,8 @@
     "circuit": "Sebring",
     "position": "4",
     "series": "Race Department",
-    "drivers": "LMP1 Peugeot 908: Bar, Bogusz, Szwajkowski"
+    "drivers": "LMP1 Peugeot 908: Bar, Bogusz, Szwajkowski",
+    "sim": "rF"
   },
   {
     "date": "6.04.2013",
@@ -525,7 +662,8 @@
     "circuit": "Silverstone",
     "position": "7",
     "series": "Race Department",
-    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski, Wiśniewski"
+    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski, Wiśniewski",
+    "sim": "rF"
   },
   {
     "date": "9.02.2013",
@@ -533,7 +671,8 @@
     "circuit": "Sebring",
     "position": "4",
     "series": "endurance-inside.fr",
-    "drivers": "LMP1 Peugeot 908:"
+    "drivers": "LMP1 Peugeot 908:",
+    "sim": "rF"
   },
   {
     "date": "12.01.2013",
@@ -541,7 +680,8 @@
     "circuit": "Interlagos",
     "position": "34",
     "series": "endurance-inside.fr",
-    "drivers": "LMP1 Peugeot 908:"
+    "drivers": "LMP1 Peugeot 908:",
+    "sim": "rF"
   },
   {
     "date": "8.12.2012",
@@ -549,7 +689,8 @@
     "circuit": "Le Mans",
     "position": "15",
     "series": "endurance-inside.fr",
-    "drivers": "LMP1 Peugeot 908:"
+    "drivers": "LMP1 Peugeot 908:",
+    "sim": "rF"
   },
   {
     "date": "10.11.2012",
@@ -557,7 +698,8 @@
     "circuit": "Suzuka",
     "position": "11",
     "series": "endurance-inside.fr",
-    "drivers": "LMP1 Peugeot 908:"
+    "drivers": "LMP1 Peugeot 908:",
+    "sim": "rF"
   },
   {
     "date": "13.10.2012",
@@ -565,7 +707,8 @@
     "circuit": "Laguna Seca",
     "position": "8",
     "series": "endurance-inside.fr",
-    "drivers": "LMP1 Peugeot 908:"
+    "drivers": "LMP1 Peugeot 908:",
+    "sim": "rF"
   },
   {
     "date": "21.07.2012",
@@ -573,7 +716,8 @@
     "circuit": "Fuji",
     "position": "6",
     "series": "SimRacingOnline",
-    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski, Szpilewski"
+    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski, Szpilewski",
+    "sim": "rF"
   },
   {
     "date": "23.06.2012",
@@ -581,6 +725,7 @@
     "circuit": "Nürburgring",
     "position": "4",
     "series": "SimRacingOnline",
-    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski"
+    "drivers": "LMP1 Peugeot 908: Bogusz, Mocarski, Szwajkowski",
+    "sim": "rF"
   }
 ]

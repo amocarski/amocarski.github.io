@@ -17,6 +17,7 @@
           <tr class="text-uppercase">
             <th translate>results_date</th>
             <th translate>results_length</th>
+            <th translate>results_sim</th>
             <th translate>results_location</th>
             <th translate>results_position</th>
             <th translate>results_series</th>
@@ -26,6 +27,7 @@
         <tr *ngFor="let item of results">
           <th>{{item.date}}</th>
           <th>{{item.length}}</th>
+          <th>{{item.sim}}</th>
           <th>{{item.circuit}}</th>
           <th style="white-space: pre-line">{{item.position}}</th>
           <th>{{item.series}}</th>
