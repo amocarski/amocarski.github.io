@@ -91,22 +91,23 @@
         <div class="">
           <table class="table table-striped">
             <thead>
-            <tr>
-              <th translate>results_date</th>
-              <th translate>results_location</th>
-              <th translate>results_position</th>
-              <th translate>results_series</th>
-            </tr>
+              <tr class="text-uppercase">
+                <th translate>results_date</th>
+                <th translate>results_location</th>
+                <th translate>results_position</th>
+                <th translate>results_series</th>
+              </tr>
             </thead>
             <tbody>
-            <tr *ngFor="let item of results | async">
-              <th class="">{{item.date}}</th>
-              <th class="d-block d-xs-none d-sm-none d-md-block"><span *ngIf="item.length != '-'">{{item.length}}</span>
-                {{item.circuit}}
-              </th>
-              <th style="white-space: pre-line">{{item.position}}</th>
-              <th>{{item.series}}</th>
-            </tr>
+              <tr *ngFor="let item of results | async">
+                <th class="">{{item.date}}</th>
+                <th>
+                  <span *ngIf="item.length != '-'">{{item.length}}</span>
+                  {{item.circuit}}
+                </th>
+                <th style="white-space: pre-line">{{item.position}}</th>
+                <th>{{item.series}}</th>
+              </tr>
             </tbody>
           </table>
         </div>

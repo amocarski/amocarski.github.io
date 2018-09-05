@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
+import { I18nService } from '../core/i18n.service';
 
 @Component({
   selector: 'app-calendar',
@@ -8,19 +9,23 @@ import { Http } from '@angular/http';
 })
 export class CalendarComponent implements OnInit {
 
-  drivers: any;
+  races: any;
+  ascending = true;
+  isLoading = true;
 
-  constructor(private http: Http) { }
+  constructor( private http: Http,
+              private i18nService: I18nService) {}
 
   ngOnInit() {
-    // $(window).trigger('resize').trigger('scroll');
-
-    // this.loadDrivers();
+    this.loadRaces();
   }
 
-  loadDrivers() {
-    // this.drivers = this.http.get("assets/drivers.json")
-    //   .map(res => res.json());
+  loadRaces() {
+      this.http.get("assets/calendar.json")
+          .subscribe(res => {
+              this.races = res.json();
+              this.isLoading = false;
+          });
   }
 
 }

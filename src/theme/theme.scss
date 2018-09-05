@@ -73,6 +73,10 @@ strong {
   margin-top: 5px;
 }
 
+.m-b-5 {
+  margin-bottom: 5px;
+}
+
 a {
   color: $gold;
 }
@@ -89,6 +93,13 @@ a:hover {
 
 .highlight-text {
   background-color: $gold;
+  color: black;
+  padding: 3px;
+  @include bold-text();
+}
+
+.highlight-text-muted {
+  background-color: $font;
   color: black;
   padding: 3px;
   @include bold-text();

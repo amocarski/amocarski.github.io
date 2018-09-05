@@ -24,15 +24,17 @@
             <th translate>results_drivers</th>
           </tr>
         </thead>
-        <tr *ngFor="let item of results">
-          <th>{{item.date}}</th>
-          <th>{{item.length}}</th>
-          <th>{{item.sim}}</th>
-          <th>{{item.circuit}}</th>
-          <th style="white-space: pre-line">{{item.position}}</th>
-          <th>{{item.series}}</th>
-          <th style="white-space: pre-line">{{item.drivers}}</th>
-        </tr>
+        <tbody>
+          <tr *ngFor="let item of results">
+            <th>{{item.date}}</th>
+            <th>{{item.length}}</th>
+            <th>{{item.sim}}</th>
+            <th>{{item.circuit}}</th>
+            <th style="white-space: pre-line">{{item.position}}</th>
+            <th>{{item.series}}</th>
+            <th style="white-space: pre-line">{{item.drivers}}</th>
+          </tr>
+        </tbody>
       </table>
 
     </div>

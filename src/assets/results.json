@@ -1,5 +1,14 @@
 [
   {
+    "date": "4.09.2018",
+    "length": "-",
+    "circuit": "Spa",
+    "position": "17 \n 1 \n 1(Server 2)",
+    "series": "ROS",
+    "drivers": "Bar \n Charkot \n Turek",
+    "sim": "AC"
+  },
+  {
     "date": "25.08.2018",
     "length": "4h",
     "circuit": "Nordschleife",

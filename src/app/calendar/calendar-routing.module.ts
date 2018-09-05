@@ -9,7 +9,7 @@ const routes: Routes = Route.withShell([
   { path: 'calendar',
     component: CalendarComponent,
     data: {
-      title: extract('calendar_length')
+      title: extract('calendar')
     }
   }
 ]);
