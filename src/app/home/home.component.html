@@ -24,10 +24,12 @@
 
 <div *ngIf="!event?.isStream">
 
-  <div><img class="d-block d-sm-block d-md-none d-lg-none none-parallax-img" src="../assets/vec-s10-frs.jpg" alt="">
+  <div>
+    <img class="d-block d-sm-block d-md-none d-lg-none none-parallax-img"
+            src="../assets/covers/{{rand}}.jpg" alt="">
   </div>
 
-  <div parallax class="d-none d-sm-none d-md-block d-lg-block" id="parralax-img"
+  <div [ngClass]="parralax" parallax class="d-none d-sm-none d-md-block d-lg-block"
        [config]="{initialValue: -100, ratio: .4}">
   </div>
 

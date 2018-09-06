@@ -227,8 +227,16 @@ a:hover {
   width: 100%;
 }
 
-#parralax-img {
-  background-image: url("../src/assets/vec-s10-frs.jpg");
+.parralax-img-1 {
+  background-image: url("../src/assets/covers/1.jpg");
+}
+
+.parralax-img-2 {
+  background-image: url("../src/assets/covers/2.jpg");
+}
+
+.parralax-img-3 {
+  background-image: url("../src/assets/covers/3.jpg");
 }
 
 @media (min-width: map-get($grid-breakpoints, md)) {

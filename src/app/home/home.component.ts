@@ -36,7 +36,9 @@ export class HomeComponent implements OnInit, OnDestroy {
   liveTimingURL: any[] = [];
   d2: boolean;
   d3: boolean;
-  ltToggler: number = 0;
+  ltToggler = 0;
+  parralax: string;
+  rand: number;
 
   constructor(private http: Http,
               public sanitizer: DomSanitizer) {
@@ -49,6 +51,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.loadResults();
     this.d2 = true;
     this.d3 = false;
+    this.coversRandomizer();
   }
 
   ngOnDestroy() {
@@ -138,5 +141,21 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   toggleLT(div: number) {
     this.ltToggler = div;
+  }
+
+  coversRandomizer() {
+      this.rand = Math.floor(Math.random() * 3) + 1;
+
+      switch (this.rand) {
+          case 1:
+            this.parralax = 'parralax-img-1';
+            break;
+          case 2:
+              this.parralax = 'parralax-img-2';
+              break;
+          case 3:
+              this.parralax = 'parralax-img-3';
+              break;
+      }
   }
 }
