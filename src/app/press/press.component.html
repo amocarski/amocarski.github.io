@@ -8,9 +8,8 @@
 
 <div class="container p35">
 
-  <div *ngFor="let release of pressReleases | async | filterArray:order:ascending; odd as isOdd; even as isEven">
-
-    <div *ngIf="isEven" class="row p35 justify-content-center">
+  <div *ngFor="let release of pressReleases | async">
+    <div class="row p35 justify-content-center">
       <div class="col-10 text-center press-title-container">
         <div class="col-lg-12 heading h3 text-uppercase">{{release.source}}</div>
         <div class="col-lg-12 h4 pb10">{{release.date}}</div>
@@ -20,18 +19,6 @@
         <img src="{{release.src}}" class="img-responsive driver-img" alt="Responsive image">
       </div>
     </div>
-
-    <div *ngIf="isOdd" class="row p35 justify-content-center">
-      <div class="col-10 text-center press-title-container">
-        <div class="col-lg-12 heading h3 text-uppercase">{{release.source}}</div>
-        <div class="col-lg-12 h4 pb10">{{release.date}}</div>
-      </div>
-
-      <div class="col-12">
-        <img src="{{release.src}}" class="img-responsive driver-img" alt="Responsive image">
-      </div>
-    </div>
-
   </div>
 
 </div>
