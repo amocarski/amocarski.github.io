@@ -1,7 +1,7 @@
 {
-  "circuit": "Silverstone",
-  "name": "VEC PRESEASON",
-  "date": "September 08 2018 16:00:00 GMT+0100",
+  "circuit": "Indianapolis",
+  "name": "VEC",
+  "date": "October 06 2018 16:00:00 GMT+0100",
   "isStream": false,
   "streamURL": "https://www.youtube.com/embed/76XikEhXdmI",
   "isLT": true,
