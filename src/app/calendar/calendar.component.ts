@@ -21,7 +21,7 @@ export class CalendarComponent implements OnInit {
   }
 
   loadRaces() {
-      this.http.get("assets/calendar.json")
+      this.http.get('assets/calendar.json')
           .subscribe(res => {
               this.races = res.json();
               this.isLoading = false;

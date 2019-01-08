@@ -1,5 +1,77 @@
 [
   {
+    "date": "09.12.2018",
+    "length": "40min",
+    "circuit": "Misano World Circuit",
+    "position": "1",
+    "series": "GT4 simrace.pl",
+    "drivers": "Żerebiec",
+    "sim": "AC"
+  },
+  {
+    "date": "1.12.2018",
+    "length": "6h",
+    "circuit": "Sao Paulo",
+    "position": "11 \n 5",
+    "series": "VEC(S11)",
+    "drivers": "LMP2 Oreca 07: Charkot, Młynek [D1] \n LMP3 Norma M30: Bar, Indyka [D2]",
+    "sim": "rF2"
+  },
+  {
+    "date": "11.11.2018",
+    "length": "40min",
+    "circuit": "Silverstone",
+    "position": "1",
+    "series": "GT4 simrace.pl",
+    "drivers": "Żerebiec",
+    "sim": "AC"
+  },
+  {
+    "date": "3.11.2018",
+    "length": "6h",
+    "circuit": "Nola",
+    "position": "5 \n 3",
+    "series": "VEC(S11)",
+    "drivers": "LMP2 Oreca 07: Charkot, Młynek [D1] \n LMP3 Norma M30: Indyka, Żerebiec [D2]",
+    "sim": "rF2"
+  },
+  {
+    "date": "28.10.2018",
+    "length": "40min",
+    "circuit": "Brands Hatch",
+    "position": "1",
+    "series": "GT4 simrace.pl",
+    "drivers": "Żerebiec",
+    "sim": "AC"
+  },
+  {
+    "date": "6.10.2018",
+    "length": "1000miles",
+    "circuit": "Indianapolis",
+    "position": "12 \n 6",
+    "series": "VEC(S11)",
+    "drivers": "LMP2 Oreca 07: Charkot, Młynek [D1] \n LMP3 Norma M30: Bar, Indyka, Żerebiec",
+    "sim": "rF2"
+  },
+  {
+    "date": "30.09.2018",
+    "length": "40min",
+    "circuit": "Zolder",
+    "position": "1",
+    "series": "GT4 simrace.pl",
+    "drivers": "Żerebiec",
+    "sim": "AC"
+  },
+  {
+    "date": "18.09.2018",
+    "length": "-",
+    "circuit": "Monza",
+    "position": "11 \n 1 \n 14",
+    "series": "ROS",
+    "drivers": "Bar \n Charkot \n Turek",
+    "sim": "AC"
+  },
+  {
     "date": "4.09.2018",
     "length": "-",
     "circuit": "Spa",

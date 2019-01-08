@@ -18,7 +18,7 @@ export class ResultsComponent implements OnInit {
   }
 
   loadResults() {
-      this.http.get("assets/results.json")
+      this.http.get('assets/results.json')
           .subscribe(res => {
               this.results = res.json();
               this.isLoading = false;

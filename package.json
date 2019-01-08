@@ -8,7 +8,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "build": "npm run env -s && ng build --prod",
+    "build": "npm run env -s && ng build --prod --output-hashing=all",
     "start": "node server.js",
     "dev": "ng serve --proxy-config proxy.conf.js",
     "lint": "ng lint --type-check && stylelint \"src/**/*.scss\" --syntax scss && htmlhint \"src\" --config .htmlhintrc",
