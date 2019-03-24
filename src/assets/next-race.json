@@ -1,13 +1,13 @@
 {
-  "circuit": "Indianapolis",
-  "name": "VEC",
-  "date": "October 06 2018 16:00:00 GMT+0100",
+  "circuit": "VEC 8h Silverstone",
+  "name": "06.04.2019",
+  "date": "2019-04-06T14:00:00+01:00",
   "isStream": false,
-  "streamURL": "https://www.youtube.com/embed/76XikEhXdmI",
-  "isLT": true,
+  "streamURL": "https://www.youtube.com/embed/Xqnzb_v9_Os",
+  "isLT": false,
   "lt": [
-    "http://d1.simracing.club:8082/dev/timing.html",
-    "http://d2.simracing.club:8082/dev/timing.html"
+    "https://bit.ly/2RsbVWK",
+    "d2.simracing.club:8085/dev/timing.html"
   ],
   "ltBtnLabel": [
     "VEC Div 1",
