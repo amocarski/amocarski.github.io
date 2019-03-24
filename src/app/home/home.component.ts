@@ -95,7 +95,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   loadEventDetails() {
-    this.http.get('assets/next-race.json')
+    const timestamp = new Date().getTime();
+    this.http.get('assets/next-race.json?v=' + timestamp)
       .subscribe((res: Response) => {
         this.event = res.json();
         this.initializeClock(this.event.date);
@@ -112,7 +113,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   loadResults() {
-    this.results = this.http.get("assets/results.json")
+    const timestamp = new Date().getTime();
+    this.results = this.http.get('assets/results.json?v=' + timestamp)
       .pipe(
         map((res: Response) => res.json().slice(0, 3)),
         catchError(() => of('Error, could not fetch data'))

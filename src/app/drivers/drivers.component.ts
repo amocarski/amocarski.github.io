@@ -24,7 +24,8 @@ export class DriversComponent implements OnInit {
   }
 
   loadDrivers() {
-    this.drivers = this.http.get('assets/drivers.json')
+    const timestamp = new Date().getTime();
+    this.drivers = this.http.get('assets/drivers.json?v=' + timestamp)
       .pipe(
         map((res: Response) => res.json()),
         catchError(() => of('Error, could not fetch data'))

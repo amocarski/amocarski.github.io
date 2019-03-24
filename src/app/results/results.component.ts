@@ -18,7 +18,8 @@ export class ResultsComponent implements OnInit {
   }
 
   loadResults() {
-      this.http.get('assets/results.json')
+      const timestamp = new Date().getTime();
+      this.http.get('assets/results.json?v=' + timestamp)
           .subscribe(res => {
               this.results = res.json();
               this.isLoading = false;

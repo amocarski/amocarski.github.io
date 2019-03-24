@@ -24,7 +24,8 @@ export class PressComponent implements OnInit {
   }
 
   loadPress() {
-    this.pressReleases = this.http.get('assets/press.json')
+    const timestamp = new Date().getTime();
+    this.pressReleases = this.http.get('assets/press.json?v=' + timestamp)
       .pipe(
         map((res: Response) => res.json()),
         catchError(() => of('Error, could not fetch data'))
