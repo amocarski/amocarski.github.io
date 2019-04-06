@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Konrad",
+    "lastname": "Bar",
+    "img": "./assets/konrad.png",
+    "birth": "7.01.1995",
+    "description": "drivers_bar",
+    "wheel": "Logitech G27 | Polsimer custom rim",
+    "series": ["VEC rFactor2", "VLN iRacing", "ROS Assetto Corsa"]
+  },
+  {
+    "name": "Jakub",
+    "lastname": "Charkot",
+    "img": "./assets/charkot.png",
+    "birth": "1.03.1995",
+    "description": "drivers_charkot",
+    "wheel": "Logitech G27 | Fanatec CSL Elite pedals LC",
+    "series": ["VEC rFactor2", "ROS Assetto Corsa"]
+  },
+  {
+    "name": "Maciej",
+    "lastname": "Młynek",
+    "img": "./assets/maciek.png",
+    "birth": "8.09.1996",
+    "description": "drivers_mlynek",
+    "wheel": "Thrustmaster T300 Alcantara",
+    "series": ["VEC rFactor2"]
+  },
+  {
+    "name": "Radosław",
+    "lastname": "Indyka",
+    "img": "./assets/radek.png",
+    "birth": "25.08.1994",
+    "description": "drivers_indyka",
+    "wheel": "Thrustmaster T300 GTE | Polsimer custom rim",
+    "series": ["VEC rFactor2"]
+  },
+  {
+    "name": "Konrad",
+    "lastname": "Żerebiec",
+    "img": "./assets/konrad-z.png",
+    "birth": "2.09.1997",
+    "description": "drivers_zerebiec",
+    "wheel": "Thrustmaster T300 Alcantara",
+    "series": ["VEC rFactor2"]
+  }
+
+]

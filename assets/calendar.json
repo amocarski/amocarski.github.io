@@ -1,0 +1,65 @@
+[
+  {
+    "date": "08.09.2018",
+    "length": "-",
+    "series": "VEC",
+    "location": "Silverstone",
+    "sim": "rF2"
+  },
+  {
+    "date": "06.10.2018",
+    "length": "1000 miles",
+    "series": "VEC",
+    "location": "Indianapolis",
+    "sim": "rF2"
+  },
+  {
+    "date": "03.11.2018",
+    "length": "6h",
+    "series": "VEC",
+    "location": "Nola",
+    "sim": "rF2"
+  },
+  {
+    "date": "02.12.2018",
+    "length": "6h",
+    "series": "VEC",
+    "location": "Sao Paulo",
+    "sim": "rF2"
+  },
+  {
+    "date": "12.01.2019",
+    "length": "12h",
+    "series": "VEC",
+    "location": "Sepang",
+    "sim": "rF2"
+  },
+  {
+    "date": "09.02.2019",
+    "length": "6h",
+    "series": "VEC",
+    "location": "Estoril",
+    "sim": "rF2"
+  },
+  {
+    "date": "09.03.2019",
+    "length": "12h",
+    "series": "VEC",
+    "location": "Sebring",
+    "sim": "rF2"
+  },
+  {
+    "date": "06.04.2019",
+    "length": "8h",
+    "series": "VEC",
+    "location": "Silverstone",
+    "sim": "rF2"
+  },
+  {
+    "date": "01.06.2019",
+    "length": "24h",
+    "series": "VEC",
+    "location": "Le Mans",
+    "sim": "rF2"
+  }
+]

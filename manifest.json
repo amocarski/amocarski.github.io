@@ -1,0 +1,13 @@
+{
+  "name": "FEEDER Ragnar Simulator",
+  "short_name": "FRS",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/logo.svg",
+    "sizes": "512x512",
+    "type": "image/svg+xml"
+  }],
+  "background_color": "#c0a062",
+  "theme_color": "#000000"
+}

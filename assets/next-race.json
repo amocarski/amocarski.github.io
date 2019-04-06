@@ -1,0 +1,14 @@
+{
+  "circuit": "VEC 8h Silverstone",
+  "name": "06.04.2019",
+  "date": "2019-04-06T14:00:00+01:00",
+  "isStream": true,
+  "streamURL": "https://www.youtube.com/embed/znDsNxBweqY",
+  "isLT": true,
+  "lt": [
+    "http://simracing.club/d1-live-timing/?fbclid=IwAR3lCNo4LqEYrXfOMRNy6vjK5Pl8DI-qpBoIxRIZI84HOcWFIuB-CYK_OcA"
+  ],
+  "ltBtnLabel": [
+    "Live timing"
+  ]
+}
