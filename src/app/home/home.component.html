@@ -5,19 +5,24 @@
     </div>
   </div>
 
-  <div class="row justify-content-center h4 p35">
+  <div class="row justify-content-center h4 p35 m-0">
     <span>{{event?.circuit}}</span>
   </div>
 
   <div *ngIf="event?.isLT">
-    <div class="row justify-content-center p35">
-      <button *ngFor="let label of event?.ltBtnLabel; let i=index" (click)="toggleLT(i)" [class.active]="ltToggler == i" type="button" class="btn btn-default">{{label}}</button>
+    <div class="row justify-content-center m-0">
+      <!--<button *ngFor="let label of event?.ltBtnLabel; let i=index" (click)="toggleLT(i)" [class.active]="ltToggler == i" type="button" class="btn btn-default">{{label}}</button>-->
+      <a *ngFor="let link of liveTimingURL" [href]="link" target="_blank">
+        <button *ngFor="let label of event?.ltBtnLabel; let i=index" [class.active]="ltToggler == i" type="button" class="btn btn-default">
+          {{label}}
+        </button>
+      </a>
     </div>
 
-    <div class="row live-timing">
-      <iframe *ngFor="let lt of liveTimingURL; let i=index" width="100%" frameborder="0" allowfullscreen="" [src]="lt"
-              [hidden]="ltToggler != i"></iframe>
-    </div>
+    <!--<div class="row live-timing">-->
+      <!--<iframe *ngFor="let lt of liveTimingURL; let i=index" width="100%" frameborder="0" allowfullscreen="" [src]="lt"-->
+              <!--[hidden]="ltToggler != i"></iframe>-->
+    <!--</div>-->
   </div>
 
 </div>
