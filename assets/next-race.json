@@ -1,9 +1,9 @@
 {
-  "circuit": "RaceRoom eSports event | Live from Tuning World Bodensee",
+  "circuit": "VEC 24h Le Mans",
   "name": "06.04.2019",
   "date": "2019-04-06T14:00:00+01:00",
   "isStream": true,
-  "streamURL": "https://www.youtube.com/embed/MAdEGVeebDM",
+  "streamURL": "https://www.youtube.com/embed/0W8B0pH2wr4",
   "isLT": false,
   "lt": [
     "http://simracing.club/d1-live-timing/?fbclid=IwAR3lCNo4LqEYrXfOMRNy6vjK5Pl8DI-qpBoIxRIZI84HOcWFIuB-CYK_OcA"
